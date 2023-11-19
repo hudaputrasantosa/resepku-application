@@ -38,7 +38,7 @@ Aplikasi ini memiliki persyaratan berikut sebelum menginstalnya:
 7. Generate link storage
 
    ```bash
-   php artisan storage
+   php artisan storage:link
 8. Jalankan Migrasi
 
    ```bash
