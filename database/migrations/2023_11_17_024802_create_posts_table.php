@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('description');
-            $table->bigInteger('user_id')->foreign('user_id')->reference('id')->on('users');
+            $table->foreignId('user_id')->constrained('users');
             $table->text('material');
             $table->text('making');
             $table->text('image');
