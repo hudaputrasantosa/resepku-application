@@ -11,7 +11,7 @@
           <div class="title fs-4">
           <h2>{{ $post->title }}</h2>
           <div class="fs-6 mb-0 mt-0">
-               <p>Author : {{ $user->name }}</p>
+               <p>Author : {{ $post->user->name }}</p>
           </div>
           <div class="fs-6">
           <p>{{ $post->description }}</p>
