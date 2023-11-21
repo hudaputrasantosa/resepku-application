@@ -47,7 +47,12 @@ Aplikasi ini memiliki persyaratan berikut sebelum menginstalnya:
 
     ```bash
     npm install
-10. Jalankan server
+10. Jalankan server vite
+
+   
+    ```bash
+    npm run dev
+10. Jalankan server laravel 
 
     ```bash
     php artisan serve
